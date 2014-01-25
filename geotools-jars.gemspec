@@ -4,7 +4,7 @@ $:.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name = 'geotools-jars'
-  gem.version = '8.5'
+  gem.version = '8.6'
   gem.summary = 'GeoTools JARs'
   gem.description = ''
   gem.platform = 'java'
