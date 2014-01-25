@@ -5,6 +5,6 @@ task :build do
 end
 
 task :release => :build do
-  system 'gem push geotools-jars-8.0-java.gem'
+  system 'gem push geotools-jars-8.1-java.gem'
 end
 
