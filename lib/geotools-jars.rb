@@ -2,5 +2,5 @@
 
 require 'java'
 
-Dir["#{File.expand_path('..', __FILE__)}/*.jar"].each { |jar| require jar }
+Dir["#{File.expand_path('..', __FILE__)}/*.jar"].each { |jar| $CLASSPATH << jar }
 
