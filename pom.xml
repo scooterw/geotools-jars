@@ -364,8 +364,8 @@
     <properties>
         <gt.version>15-SNAPSHOT</gt.version>
     </properties>
-    <name>geoscript ruby</name>
-    <description>A ruby implementation of geoscript.</description>
+    <name>gem for geotools jary</name>
+    <description>Gem for geotools.</description>
     <url>http://geoscript.org/</url>
     <licenses>
         <license>
@@ -373,38 +373,10 @@
             <url>http://www.opensource.org/licenses/mit-license.php</url>
         </license>
     </licenses>
-    <scm>
-        <connection>scm:git://github.com/blackrez/geoscript-ruby.git</connection>
-        <url>https://github.com/blackrez/geoscript-ruby</url>
-        <developerConnection>scm:git@github.com:blackrez/geoscript-ruby.git</developerConnection>
-    </scm>
-    <issueManagement>
-        <system>github</system>
-        <url>https://github.com/blackrez/geoscript-ruby/issues</url>
-    </issueManagement>
     <mailingLists>
         <mailingList>
             <name>GeoScript Google Group</name>
             <archive>http://groups.google.com/group/geoscript</archive>
         </mailingList>
     </mailingLists>
-    <developers>
-        <developer>
-            <id>blackrez</id>
-            <name>Nabil Servais</name>
-        </developer>
-    </developers>
-    <distributionManagement>
-        <repository>
-            <id>boundless</id>
-            <name>Boundless Release Repository</name>
-            <url>https://boundless.artifactoryonline.com/boundless/release/</url>
-            <uniqueVersion>false</uniqueVersion>
-        </repository>
-        <snapshotRepository>
-            <id>boundless</id>
-            <name>Boundless Snapshot Repository</name>
-            <url>https://boundless.artifactoryonline.com/boundless/snapshot/</url>
-        </snapshotRepository>
-    </distributionManagement>
 </project>
